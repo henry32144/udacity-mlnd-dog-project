@@ -1,0 +1,6 @@
+tensorflow==2.0.0
+pandas
+numpy
+opencv-python
+imgaug
+jupyter

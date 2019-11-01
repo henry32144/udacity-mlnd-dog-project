@@ -125,12 +125,13 @@
 <script type="text/javascript">
   "use strict";
 
-  const modelUrl = "https://github.com/henry32144/udacity-mlnd-dog-project/blob/master/tfjs_model/model.json"
+
   let model;
+  const modelUrl = "https://github.com/henry32144/udacity-mlnd-dog-project/blob/master/tfjs_model/model.json"
+
 
   async function loadModel() {
-    const uploadJSONInput = document.getElementById('upload-json');
-    model = await tf.loadLayersModel(tf.io.browserFiles(uploadJSONInput.files[0]));
+    model = await tf.loadLayersModel(modelUrl);
     console.log('Successfully loaded model');
   }
 
