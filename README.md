@@ -7,7 +7,13 @@
 
 ## Project Overview
 
-[Report file](https://henry32144.github.io/udacity-mlnd-dog-project/)
+[Demo](https://henry32144.github.io/udacity-mlnd-dog-project/)
+
+[Original Report](https://henry32144.github.io/udacity-mlnd-dog-project/report.html)
+
+[Improved Acc~90](https://henry32144.github.io/udacity-mlnd-dog-project/report_v2.html)
+
+[Train Demo MobileNet](https://henry32144.github.io/udacity-mlnd-dog-project/report_mobilenet.html)
 
 Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 

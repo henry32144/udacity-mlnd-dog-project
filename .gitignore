@@ -1,0 +1,7 @@
+node_modules
+.ipynb_checkpoints
+dogImages
+images
+lfw
+logs
+saved_models
