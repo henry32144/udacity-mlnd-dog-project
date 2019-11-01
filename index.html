@@ -127,10 +127,9 @@
 
 
   let model;
-  const modelUrl = "https://github.com/henry32144/udacity-mlnd-dog-project/blob/master/tfjs_model/model.json"
-
 
   async function loadModel() {
+    const modelUrl = "https://github.com/henry32144/udacity-mlnd-dog-project/blob/master/tfjs_model/model.json"
     model = await tf.loadLayersModel(modelUrl);
     console.log('Successfully loaded model');
   }
